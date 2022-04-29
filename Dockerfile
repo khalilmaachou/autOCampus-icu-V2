@@ -10,6 +10,6 @@ RUN pip install --upgrade pip
 
 COPY ./app/autOCampus-icu-backend/requirements.txt /app/requirements.txt
 
-RUN pip install -r requirements.txt
+#RUN pip install -r requirements.txt
 
 COPY . /app
