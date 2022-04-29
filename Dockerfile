@@ -6,9 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 
 ENV PYTHONUNBUFFERED 1
 
-RUN apt-get install build-essential python3-dev python2.7-dev \
-    libldap2-dev libsasl2-dev slapd ldap-utils tox \
-    lcov valgrind
+RUN apt-get install libldap2-dev libsasl2-dev slapd ldap-utils
 
 RUN pip install --upgrade pip
 
